@@ -1,3 +1,27 @@
-p {
-  font-family: Lato;
+.wrapper{
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.wrapper:hover{
+    box-shadow: inset 0 0 0 25px #000;
+
+}
+
+.content-background{
+    background-image:url("/assets/images/abstract-blue.jpg");
+    background-size: cover;
+    background-position:center center;
+}
+
+.content{
+  
+    height:100px;
+    text-align: center;
+    vertical-align: middle;
+    line-height: 90px;
+    color:black;
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
 }

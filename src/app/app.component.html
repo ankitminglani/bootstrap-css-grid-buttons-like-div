@@ -1,4 +1,60 @@
-<hello name="{{ name }}"></hello>
-<p>
-  Start editing to see some magic happen :)
-</p>
+<div class="container">
+  <div class="text-align: center">
+    <br>
+    <h2>Responsive Bootstrap 4 Grid example with clickable divs and centred image.</h2>
+  </div>
+  <hr>
+  <br />
+  <br />
+  <div class="row">
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="wrapper" (click)="buttonDivClicked('Button 1')">
+        <div class="content content-background">
+            <i class="fas fa-download"></i> Button 1
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="wrapper" (click)="buttonDivClicked('Button 2')">
+        <div class="content content-background">
+            <i class="fas fa-download"></i> Button 2
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="wrapper" (click)="buttonDivClicked('Button 3')">
+        <div class="content content-background">
+            <i class="fas fa-download"></i> Button 3
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="wrapper" (click)="buttonDivClicked('Button 4')">
+        <div class="content content-background">
+            <i class="fas fa-download"></i> Button 4
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="wrapper" (click)="buttonDivClicked('Button 5')">
+        <div class="content content-background">
+            <i class="fas fa-download"></i> Button 5
+        </div>
+      </div>
+    </div>
+
+    <div class="col-lg-3 col-md-6 col-sm-12 col-xs-12">
+      <div class="wrapper" (click)="buttonDivClicked('Button 6')">
+        <div class="content content-background">
+            <i class="fas fa-download"></i> Button 6
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<p-toast position="bottom-center"></p-toast>
